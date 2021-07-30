@@ -39,7 +39,7 @@ Anahtar özellikler:
 * **Sezgisel**: Harika editör desteği.  Her yerde <abbr title="also known as auto-complete, autocompletion, IntelliSense">otomatik tamamlama</abbr>. Daha az hata ayıklama.
 * **Kolay**: Kullanması ve öğrenmesi kolay olması için tasarlandı.
 * **Kısa**:  Kod tekrarını en aza indirin. Her bir parametre tanımı ile daha fazla özellik. Daha az hata.
-* **Dayanıklı**: Otomatik etkileşimli dökümantasyonla, üretime hazır kod alın.
+* **Dayanıklı**: Otomatik etkileşimli dökümantasyonla, canlıya hazır kod elde edin.
 * **Standartlara dayalı**: API'lar için olan açık standartları temel alır (ve bunlarla tamamen uyumludur): <a href="https://github.com/OAI/OpenAPI-Specification" class="external-link" target="_blank">OpenAPI</a> (daha önce Swagger olarak bilinmekteydi) ve <a href="https://json-schema.org/" class="external-link" target="_blank">JSON Şeması</a>.
 
 <small>* Dahili geliştirme ekibi tarafından gerçekleştirilen testleri ve ürün geliştirmeleri baz alan tahminlerdir.</small>
