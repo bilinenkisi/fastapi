@@ -1,4 +1,4 @@
-
+﻿
 {!../../../docs/missing-translation.md!}
 
 
@@ -6,7 +6,7 @@
   <a href="https://fastapi.tiangolo.com"><img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" alt="FastAPI"></a>
 </p>
 <p align="center">
-    <em>FastAPI framework, high performance, easy to learn, fast to code, ready for production</em>
+    <em>FastAPI framework, yüksek performans, öğrenmesi kolay, kodlaması hızlı, üretime hazır</em>
 </p>
 <p align="center">
 <a href="https://github.com/tiangolo/fastapi/actions?query=workflow%3ATest" target="_blank">
@@ -22,29 +22,29 @@
 
 ---
 
-**Documentation**: <a href="https://fastapi.tiangolo.com" target="_blank">https://fastapi.tiangolo.com</a>
+**Dökümantasyon**: <a href="https://fastapi.tiangolo.com" target="_blank">https://fastapi.tiangolo.com</a>
 
-**Source Code**: <a href="https://github.com/tiangolo/fastapi" target="_blank">https://github.com/tiangolo/fastapi</a>
+**Kaynak Kodu**: <a href="https://github.com/tiangolo/fastapi" target="_blank">https://github.com/tiangolo/fastapi</a>
 
 ---
+FastAPI, standart Python tip gösterimine dayalı Python 3.6+ ile API'lar inşa etmek için modern, hızlı (yüksek performanslı) bir web framework'üdür.
 
-FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
+Anahtar özellikler:
 
-The key features are:
+* **Hızlı**: **NodeJS** ve **Go** düzeyinde yüksek peformans (Starlette ve Pydantic sayesinde).
+[Mevcut en hızlı Python framework'lerinden biri](#performance).
 
-* **Fast**: Very high performance, on par with **NodeJS** and **Go** (thanks to Starlette and Pydantic). [One of the fastest Python frameworks available](#performance).
+* **Kodlaması hızlı**: Özellikler geliştirme hızını yaklaşık %200 ila %300 oranında artırın. *
+* **Daha az hata**: İnsan (geliştirici) kaynaklı hataları yaklaşık %40 oranında azaltın. *
+* **Sezgisel**: Harika editör desteği.  Her yerde <abbr title="also known as auto-complete, autocompletion, IntelliSense">otomatik tamamlama</abbr>. Daha az hata ayıklama.
+* **Kolay**: Kullanması ve öğrenmesi kolay olması için tasarlandı.
+* **Kısa**:  Kod tekrarını en aza indirin. Her bir parametre tanımı ile daha fazla özellik. Daha az hata.
+* **Dayanıklı**: Otomatik etkileşimli dökümantasyonla, üretime hazır kod alın.
+* **Standartlara dayalı**: API'lar için olan açık standartları temel alır (ve bunlarla tamamen uyumludur): <a href="https://github.com/OAI/OpenAPI-Specification" class="external-link" target="_blank">OpenAPI</a> (daha önce Swagger olarak bilinmekteydi) ve <a href="https://json-schema.org/" class="external-link" target="_blank">JSON Şeması</a>.
 
-* **Fast to code**: Increase the speed to develop features by about 200% to 300%. *
-* **Fewer bugs**: Reduce about 40% of human (developer) induced errors. *
-* **Intuitive**: Great editor support. <abbr title="also known as auto-complete, autocompletion, IntelliSense">Completion</abbr> everywhere. Less time debugging.
-* **Easy**: Designed to be easy to use and learn. Less time reading docs.
-* **Short**: Minimize code duplication. Multiple features from each parameter declaration. Fewer bugs.
-* **Robust**: Get production-ready code. With automatic interactive documentation.
-* **Standards-based**: Based on (and fully compatible with) the open standards for APIs: <a href="https://github.com/OAI/OpenAPI-Specification" class="external-link" target="_blank">OpenAPI</a> (previously known as Swagger) and <a href="https://json-schema.org/" class="external-link" target="_blank">JSON Schema</a>.
+<small>* Dahili geliştirme ekibi tarafından gerçekleştirilen testleri ve ürün geliştirmeleri baz alan tahminlerdir.</small>
 
-<small>* estimation based on tests on an internal development team, building production applications.</small>
-
-## Sponsors
+## Sponsorlar
 
 <!-- sponsors -->
 
@@ -59,29 +59,29 @@ The key features are:
 
 <!-- /sponsors -->
 
-<a href="https://fastapi.tiangolo.com/fastapi-people/#sponsors" class="external-link" target="_blank">Other sponsors</a>
+<a href="https://fastapi.tiangolo.com/fastapi-people/#sponsors" class="external-link" target="_blank">Diğer sponsorlar</a>
 
-## Opinions
+## Görüşler
 
-"_[...] I'm using **FastAPI** a ton these days. [...] I'm actually planning to use it for all of my team's **ML services at Microsoft**. Some of them are getting integrated into the core **Windows** product and some **Office** products._"
+"_[...] Bügünler'de **FastAPI**'yı oldukça fazla kullanıyorum. [...] Aslında bunu ekibimin Microsoft'taki tüm makine öğrenim hizmetleri için kullanmayı planlıyorum. Bazıları **Windows**'un temel ürünlerine ve bazıları da **Office** ürünlerine entegre ediliyor._"
 
 <div style="text-align: right; margin-right: 10%;">Kabir Khan - <strong>Microsoft</strong> <a href="https://github.com/tiangolo/fastapi/pull/26" target="_blank"><small>(ref)</small></a></div>
 
 ---
 
-"_We adopted the **FastAPI** library to spawn a **REST** server that can be queried to obtain **predictions**. [for Ludwig]_"
+"_**Tahminleri** almak için sorgulanabilecek bir **REST** sunucusu oluşturmak amacıyla **FastAPI** kütüphanesini benimsedik. [Ludwig için]_"
 
 <div style="text-align: right; margin-right: 10%;">Piero Molino, Yaroslav Dudin, and Sai Sumanth Miryala - <strong>Uber</strong> <a href="https://eng.uber.com/ludwig-v0-2/" target="_blank"><small>(ref)</small></a></div>
 
 ---
 
-"_**Netflix** is pleased to announce the open-source release of our **crisis management** orchestration framework: **Dispatch**! [built with **FastAPI**]_"
+"_**Netflix**, **kriz yönetimi** düzenleme framework'ümüzün açık kaynaklı sürümünü duyurmaktan mutluluk duyar: **Dispatch** [**FastAPI** ile yapıldı]_"
 
 <div style="text-align: right; margin-right: 10%;">Kevin Glisson, Marc Vilanova, Forest Monsen - <strong>Netflix</strong> <a href="https://netflixtechblog.com/introducing-dispatch-da4b8a2a8072" target="_blank"><small>(ref)</small></a></div>
 
 ---
 
-"_I’m over the moon excited about **FastAPI**. It’s so fun!_"
+"_**FastAPI** için aşırı heyecanlıyım. Çok eğlenceli!_"
 
 <div style="text-align: right; margin-right: 10%;">Brian Okken - <strong><a href="https://pythonbytes.fm/episodes/show/123/time-to-right-the-py-wrongs?time_in_sec=855" target="_blank">Python Bytes</a> podcast host</strong> <a href="https://twitter.com/brianokken/status/1112220079972728832" target="_blank"><small>(ref)</small></a></div>
 
